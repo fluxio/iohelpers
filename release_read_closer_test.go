@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/fluxio/util/iohelpers/counting"
+	"github.com/fluxio/iohelpers/counting"
 )
 
 // errorCloser implements ReadCloser over an underlying io.Reader with a trivial
